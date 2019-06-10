@@ -1,0 +1,27 @@
+/**
+  root stylesheet for main screen
+**/
+@import '../variables/colors.scss';
+@import '../variables/typography.scss';
+@import '../variables/extras.scss';
+
+/**
+  root stylesheet for main extra small screens
+  **/
+@import './extra_small.scss';
+/**
+  root stylesheet for main small screens
+  **/
+@import './small.scss';
+/**
+  root stylesheet for main medium screens
+  **/
+@import './medium.scss';
+/**
+  root stylesheet for main large screens
+  **/
+@import './large.scss';
+/**
+  root stylesheet for main extra large screens
+  **/
+@import './extra_large.scss';
