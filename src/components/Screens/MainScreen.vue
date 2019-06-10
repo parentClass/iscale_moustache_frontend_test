@@ -6,18 +6,18 @@
     <!-- main -->
     <div class="container" id="main-s-container">
       <div class="row">
-        <div class="col-7 text-center">
+        <div class="col-12 col-md-7 pt-3 pt-md-5 text-center">
           <img src="~img/classic_tee.jpg" alt="eShop classic tee image" id="main-item-img" class="img-fluid">
         </div>
-        <div class="col-5">
+        <div class="col-12 col-md-5 pt-3 pt-md-5">
           <div class="row">
             <div class="col-12">
-              <h5 id="main-title-text" class="pb-3">
+              <h5 id="main-title-text" class="pt-3 pb-3 pt-md-0">
                 Classic Tee
               </h5>
             </div>
             <div class="col-12">
-              <h6 id="main-cost-text" class="border-top border-bottom py-2">
+              <h6 id="main-cost-text" class="border-top border-bottom py-md-2">
                 $75.00
               </h6>
             </div>
@@ -44,7 +44,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-12">
+            <div class="col-12 pb-3 pb-md-0">
               <button type="button" id="main-add-cart-button" class="btn" @click="addToCart">ADD TO CART</button>
             </div>
           </div>

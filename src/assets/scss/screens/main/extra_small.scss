@@ -1,0 +1,17 @@
+/**
+ main extra small
+**/
+@media (min-width: 320px) and (max-width: 480px) {
+  #main-cost-text {
+    border: 0 !important;
+  }
+
+  #main-desc-text {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  #main-add-cart-button {
+    padding: 5px 23px !important;
+  }
+}
