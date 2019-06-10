@@ -1,4 +1,4 @@
-# iscale_front_exam_ds
+# eShop &middot; One stop exam shop
 
 > Exam entry for iScale -> Moustache examination for front-end developer
 
