@@ -1,0 +1,116 @@
+/**
+  root stylesheet for main screen
+**/
+@import '../../variables/colors.scss';
+@import '../../variables/typography.scss';
+@import '../../variables/extras.scss';
+
+/**
+  root stylesheet for main extra small screens
+  **/
+@import './extra_small.scss';
+/**
+  root stylesheet for main small screens
+  **/
+@import './small.scss';
+/**
+  root stylesheet for main medium screens
+  **/
+@import './medium.scss';
+/**
+  root stylesheet for main large screens
+  **/
+@import './large.scss';
+/**
+  root stylesheet for main extra large screens
+  **/
+@import './extra_large.scss';
+
+/**
+  universal
+**/
+
+#main-s-container {
+  margin-top: 1.555rem;
+
+  #main-item-img {
+    max-height: 600px;
+  }
+
+  #main-title-text {
+    font-size: 20px;
+  }
+
+  #main-cost-text {
+    color: $f-color-1;
+    font-weight: bolder;
+    font-size: 12px;
+    border-top-color: $h-bg !important;
+    border-bottom-color: $h-bg !important;
+  }
+
+  #main-desc-text {
+    color: $f-color-2;
+    font-size: 14px;
+  }
+
+  #main-size-text {
+    color: $f-color-2;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  #main-size-star {
+    color: $r-star-color;
+  }
+
+  #main-selected-size-text {
+    color: $f-color-1;
+    font-weight: bold;
+  }
+  
+  ul {
+    li {
+      margin: 0;
+      button {
+        border-radius: 0;
+        color: $f-color-2;
+        font-size: 12px;
+        padding: 10px 15px;
+        border: 1px solid $bdr-lgrey;
+      }
+    }
+  }
+
+  button.active {
+    border: 2px solid $bdr-dgrey !important;
+  }
+
+  #main-add-cart-button {
+    color: $f-color-1;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 27px;
+    border-radius: 0;
+    border: 2px solid $bdr-dgrey;
+    -webkit-transition: all 0.2s;
+
+    &:hover {
+      color: #fff;
+      background-color: $bdr-dgrey;
+    }
+  }
+
+  .btn.active.focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn.focus:active,
+  .btn:active:focus,
+  .btn:focus {
+    outline: 0 !important;
+    outline-offset: 0  !important;
+    background-image: none  !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
+  }
+}
